@@ -39,7 +39,7 @@ movies = [
       "Gil Bellows"
     ],
     rooms: 1,
-    hours: "Sunday 17:30h, 20:00h"
+    hours: ['Sunday 17:30h', '20:00h']
   }, {
     id: 2,
     title: "The Godfather",
@@ -59,7 +59,7 @@ movies = [
       "Sterling Hayden"
     ],
     rooms: 2,
-    hours: "Friday 17:30h, 20:00h"
+    hours: ['Friday 17:30h', '20:00h']
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -79,7 +79,7 @@ movies = [
       "Talia Shire"
     ],
     rooms: 3,
-    hours: "Monday 18:30h, 21:00h"
+    hours: ['Monday 18:30h', '21:00h']
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -99,7 +99,7 @@ movies = [
       "Gary Oldman"
     ],
     rooms: 4,
-    hours: "Tuesday 19:30h, 22:30h"
+    hours: ['Tuesday 19:30h', '22:30h']
   },
   {
     id: 5,
@@ -120,7 +120,7 @@ movies = [
       "Embeth Davidtz"
     ],
     rooms: 5,
-    hours: "Wednesday 19:30h, 22:30h"
+    hours: ['Wednesday 19:30h', '22:30h']
   }
 ];
 
@@ -130,6 +130,7 @@ getMovies() {
 };
 
 getMovie(id) {
+  console.log(this.movies[id]);
   return this.movies[id];
 }
 
