@@ -37,7 +37,9 @@ movies = [
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
+    ],
+    rooms: 1,
+    hours: "Sunday 17:30h, 20:00h"
   }, {
     id: 2,
     title: "The Godfather",
@@ -55,7 +57,9 @@ movies = [
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    rooms: 2,
+    hours: "Friday 17:30h, 20:00h"
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -73,7 +77,9 @@ movies = [
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    rooms: 3,
+    hours: "Monday 18:30h, 21:00h"
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -91,7 +97,9 @@ movies = [
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
+    ],
+    rooms: 4,
+    hours: "Tuesday 19:30h, 22:30h"
   },
   {
     id: 5,
@@ -110,7 +118,9 @@ movies = [
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
-    ]
+    ],
+    rooms: 5,
+    hours: "Wednesday 19:30h, 22:30h"
   }
 ];
 
